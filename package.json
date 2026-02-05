@@ -1,0 +1,37 @@
+{
+  "name": "nory-mcp-server",
+  "version": "0.1.1",
+  "mcpName": "io.github.TheMemeBanker/nory-mcp-server",
+  "description": "MCP server for x402 payments - Give any AI agent the ability to pay",
+  "main": "dist/index.js",
+  "bin": {
+    "nory-mcp": "./dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "x402",
+    "payments",
+    "ai-agents",
+    "solana",
+    "micropayments",
+    "nory"
+  ],
+  "author": "Nory",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@solana/web3.js": "^1.98.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

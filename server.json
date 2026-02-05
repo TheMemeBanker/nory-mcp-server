@@ -1,0 +1,36 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.TheMemeBanker/nory-mcp-server",
+  "description": "Give any AI agent instant payment capabilities via x402 protocol on Solana",
+  "repository": {
+    "url": "https://github.com/TheMemeBanker/nory-mcp-server",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "nory-mcp-server",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "NORY_WALLET_KEY",
+          "description": "Your Solana wallet private key for making payments",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true
+        },
+        {
+          "name": "NORY_API_URL",
+          "description": "Nory API endpoint (default: https://api.noryx402.com)",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false
+        }
+      ]
+    }
+  ]
+}
