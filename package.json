@@ -1,7 +1,7 @@
 {
   "name": "nory-mcp-server",
-  "version": "0.1.1",
-  "mcpName": "io.github.TheMemeBanker/nory-mcp-server",
+  "version": "1.0.3",
+  "mcpName": "io.github.TheMemeBanker/nory-x402",
   "description": "MCP server for x402 payments - Give any AI agent the ability to pay",
   "main": "dist/index.js",
   "bin": {

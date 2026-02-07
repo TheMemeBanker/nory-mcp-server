@@ -1,17 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.TheMemeBanker/nory-mcp-server",
+  "name": "io.github.TheMemeBanker/nory-x402",
   "description": "Give any AI agent instant payment capabilities via x402 protocol on Solana",
   "repository": {
     "url": "https://github.com/TheMemeBanker/nory-mcp-server",
     "source": "github"
   },
-  "version": "0.1.1",
+  "version": "1.0.3",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "nory-mcp-server",
-      "version": "0.1.1",
+      "version": "1.0.3",
       "transport": {
         "type": "stdio"
       },
